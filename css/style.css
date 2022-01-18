@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.first-row {
+    padding-top:15px;
+    margin-bottom: 60px;
+} 
+
+.outfit1, .outfit2, .outfit3, .outfit4, .outfit5, .outfit6 {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+.levis-outfit:hover, .guess-outfit:hover, .zucchero-outfit:hover, .levis-outfit2:hover, .maya-outfit:hover, .esprit-outfit:hover {
+    display: inline-block;
+    max-height: 400px;
+}
+
+.levis-outfit:hover {
+    content: url(../img/1b.webp);
+}
+
+.guess-outfit:hover {
+    content: url(../img/2b.webp);
+}
+
+.zucchero-outfit:hover {
+    content: url(../img/3b.webp);
+}
+
+.levis-outfit2:hover {
+    content: url(../img/4b.webp);
+}
+
+.maya-outfit:hover {
+    content: url(../img/5b.webp);
+}
+
+.esprit-outfit:hover {
+    content: url(../img/6b.webp);
+}
+
+.levis-outfit, .guess-outfit, .zucchero-outfit, .levis-outfit2, .maya-outfit, .esprit-outfit {
+    height: 400px;
+}
+
+span {
+    display: block;
+    font-size: 0.9em;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-weight: bold;
+}
+
+.price {
+    color: red;
+}
+
+.discount {
+    position: absolute;
+    bottom: 70px;
+    font-size: 9px;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heart {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size:large;
+    padding: 1px;
+}
+
+.consistency {
+    position: absolute;
+    bottom: 70px;
+    left: 30px;
+    font-size: 9px;
+    font-weight: 500;
+    background-color: green;
+    color: white;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.consistency.bottom-right{
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+}
+
+.erased-price {
+    text-decoration: line-through;
+    display: inline-block;
+    color: black;
+}
