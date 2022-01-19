@@ -5,19 +5,19 @@
 }
 
 .container {
-    margin: 0 auto;
     width: 1000px;
+    margin: 0 auto; 
 }
 
 .first-row {
-    padding-top:15px;
+    padding-top:25px;
     margin-bottom: 60px;
 } 
 
 .outfit1, .outfit2, .outfit3, .outfit4, .outfit5, .outfit6 {
     display: inline-block;
-    margin-right: 20px;
     position: relative;
+    margin-right: 40px;
 }
 
 .levis-outfit:hover, .guess-outfit:hover, .zucchero-outfit:hover, .levis-outfit2:hover, .maya-outfit:hover, .esprit-outfit:hover {
